@@ -1,0 +1,102 @@
+{
+  "best_model": "Stacking",
+  "pool_results": [
+    {
+      "model": "LinearRegression",
+      "rmse": 17763.55,
+      "mae": 13677.32,
+      "mape": 17.3,
+      "smape": 16.11,
+      "r2": 0.7899
+    },
+    {
+      "model": "Ridge",
+      "rmse": 17764.15,
+      "mae": 13677.27,
+      "mape": 17.3,
+      "smape": 16.11,
+      "r2": 0.7898
+    },
+    {
+      "model": "Lasso",
+      "rmse": 24612.16,
+      "mae": 19804.0,
+      "mape": 26.14,
+      "smape": 22.78,
+      "r2": 0.5966
+    },
+    {
+      "model": "ElasticNet",
+      "rmse": 23583.78,
+      "mae": 18778.61,
+      "mape": 24.8,
+      "smape": 21.81,
+      "r2": 0.6296
+    },
+    {
+      "model": "RandomForest",
+      "rmse": 16187.19,
+      "mae": 13084.21,
+      "mape": 17.11,
+      "smape": 16.13,
+      "r2": 0.8255
+    },
+    {
+      "model": "ExtraTrees",
+      "rmse": 16835.78,
+      "mae": 13501.67,
+      "mape": 17.72,
+      "smape": 16.7,
+      "r2": 0.8112
+    },
+    {
+      "model": "GradientBoosting",
+      "rmse": 16024.64,
+      "mae": 12850.18,
+      "mape": 16.96,
+      "smape": 15.87,
+      "r2": 0.829
+    },
+    {
+      "model": "XGBoost",
+      "rmse": 15931.55,
+      "mae": 12798.92,
+      "mape": 16.85,
+      "smape": 15.8,
+      "r2": 0.831
+    },
+    {
+      "model": "LightGBM",
+      "rmse": 15795.1,
+      "mae": 12717.67,
+      "mape": 16.65,
+      "smape": 15.66,
+      "r2": 0.8339
+    },
+    {
+      "model": "KNN",
+      "rmse": 18816.06,
+      "mae": 15032.35,
+      "mape": 20.32,
+      "smape": 18.16,
+      "r2": 0.7642
+    },
+    {
+      "model": "Stacking",
+      "rmse": 15521.57,
+      "mae": 12481.94,
+      "mape": 16.44,
+      "smape": 15.4,
+      "r2": 0.8396
+    }
+  ],
+  "test_metrics": {
+    "rmse": 15459.71,
+    "mae": 12337.14,
+    "mape": 16.27,
+    "smape": 15.35,
+    "r2": 0.8429
+  },
+  "feature_count": 36,
+  "training_samples": 12473
+}
