@@ -16,4 +16,4 @@ COPY . .
 COPY data/ /app/data/
 
 # Train model on startup if not already trained
-CMD ["sh", "-c", "python train.py && uvicorn main:app --host 0.0.0.0 --port 8000"]
+CMD ["sh", "-c", "python train.py && uvicorn main:app --host 0.0.0.0 --port 7860"]
